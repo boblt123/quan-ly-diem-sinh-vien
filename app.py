@@ -36,13 +36,13 @@ df["Tong_ket"] = (
 # 4. Xep loai sinh vien
 def xep_loai(diem):
     if diem >= 8.5:
-        return "Gioi"
+        return "Giỏi"
     elif diem >= 7.0:
-        return "Kha"
+        return "Khá"
     elif diem >= 5.0:
-        return "Trung binh"
+        return "Trung bình"
     else:
-        return "Yeu"
+        return "Yếu"
 
 df["Xep_loai"] = df["Tong_ket"].apply(xep_loai)
 
