@@ -115,4 +115,4 @@ plt.close(fig)
 
 # 9. Thong tin nguoi tao ung dung
 st.divider()
-st.caption("Người tạo ứng dụng: [Lại Thế Bắc] - MSSV: [034208015505]")
+st.caption("Người tạo ứng dụng: Lại Thế Bắc - MSSV: 034208015505")
